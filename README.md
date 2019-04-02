@@ -1,31 +1,20 @@
-# Games-Assignment-5
+# Games-Assignment-7
 
 ## Green
 
-1. When starting the new project in Unity, make sure to use the 2D template!
-2. Now make a 2D platformer of your choice, it could be a Super Mario clone, a Commander Keen
-clone or whatever you want.
-3. The player must move with arrows or WSAD
-4. Make the camera follow the player
-5. The player character must be animated, meaning that as a minimum the player character must
-change between at least 2 sprites when running.
-6. The player can jump onto platforms
-7. There must be at least one powerup, like super speed, extra health, invulnerability
-8. There must be enemies that kill you instantly or make you loose health
-9. Make at least 1 element “juiced”, for example a nice visual effect when you pick up the power up
-or when you win.
+1. Deploy the game to Google play or Apple app store, it could be the one you made in Assignment 6.
+2. The game must be playable – I won’t accept “Hello World” apps or broken games.
+3. The game must work on a normal device, and not only on your strange android tablet from Korea.
+4. The game must have at least 2 separate scenes, for example a main menu scene and a game scene.
+When I press play on main menu, I go to game, when I die/fail, I go back to menu. Make sure to add
+your scenes to the build in “Build settings”.
+5. Requirements for the game are so simple here, since the deployment pipeline / tool chain setup is
+more complex
 
 ## Yellow
 
-1. Make enemies patrol back and forth on the platforms
-2. Make the player able to shoot the enemies and/or jump on their heads to kill them
-3. Make the player able to pick up guns/ammo in order to shoot.
-4. Make some proper level design – a level that is not too short, easy or hard.
-5. Upgrade your camera to Cinemachine, see “Useful Ressources” above.
+1. Add some library to your game. It could be analytics, In app purchase, ads, high score, etc.
 
 ## Red
 
-1. Make multiple levels
-2. Make doors and keys, for example play must find the red key to open the red door.
-3. Make an inventory
-4. Make your own camera system that replaces Cinemachine, so it follows the player smoothly
+1. Export your game to webgl too, and deploy to a web server.
